@@ -1,0 +1,140 @@
+* {
+	background-color: #F3F5FC;
+	border: 2px solid black;
+}
+
+.logoA {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	width: 100px;
+	height: 38px;
+	left: 20px;
+	top: 20px;
+	margin: 0 auto;
+}
+
+.digiteSeuTexto {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	width: 200px;
+	height: 38px;
+	left: 270px;
+	top: 120px;
+	margin: 0 auto;
+}
+
+.textarea1 {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	width: 380px;
+	left: 270px;
+	top: 165px;
+	margin: 0 auto;
+	border: none;
+	font-size: 20px;
+}
+
+.legenda{
+	display: flex;
+	position: absolute;
+	align-items: center;
+	width: 252px;
+	height: 18px;
+	left: 270px;
+	top: 370px;
+	margin: 0 auto;
+}
+
+.button1 {
+	background-color: #0A3871 ;
+	color: white;
+	display: inline-block;
+	align-items: center;
+	width: 250px;
+	height: 60px;
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	left: 50px;
+	top: 480px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.button2 {
+	background-color: #D8DFE8 ;
+	display: inline-block;
+	align-items: center;
+	width: 250px;
+	height: 60px;
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	left: 333px;
+	top: 480px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.button3 {
+	background-color: #0A3871 ;
+	color: white;
+	display: inline-block;
+	align-items: center;
+	width: 250px;
+	height: 60px;
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	left: 615px;
+	top: 480px;
+	margin: 0 auto;
+	border-radius: 20px;
+}
+
+.textarea2 {
+	background-color: white;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	width: 250px;
+	height: 200px;
+	left: 910px;
+	top: 20px;
+	margin: 0 auto;
+	padding: 250px 20px;
+	border-radius: 20px;
+	padding-top: 120px;
+	font-size: 20px;
+
+}
+
+.highQualityProducts1 {
+	background-color: white;
+	display: flex;
+	position: absolute;
+	align-items: center;
+	width: 250px;
+	height: 200px;
+	left: 910px;
+	top: 20px;
+	margin: 0 auto;
+	padding: 250px 20px;
+	border-radius: 20px;
+	padding-top: 120px;
+}
+
+
+
+footer {
+	display: block;
+	position: relative;
+	align-items: center;
+	text-align: center;
+	
+	top: 630px;
+	margin: 0 auto;
+}
