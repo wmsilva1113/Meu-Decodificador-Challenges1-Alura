@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Meu Codificador</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+</head>
+<body>
+	<header>
+		<div>
+			<img id="logoA" src="logoA.svg" class="logoA">
+		</div>
+	</header>
+		<form>
+			<div>
+				<img src="digiteSeuTexto.svg" class="digiteSeuTexto">
+				<textarea cols="50" rows="8" id="textoDigitado" required="" class="textarea1"></textarea>
+				<img src="legenda.svg" class="legenda">
+			</div>
+		</form>
+
+			<nav>
+				<button onclick="criptografar()" type="button" id="criptografar" class="button1">Criptografar</button>
+				<button onclick="descriptografar()" type="button" id="descriptografar" class="button2">Descriptografar</button>
+			</nav>
+
+			<div>
+				<button id="copy" class="button3">Copiar Texto Criptografado</button>
+				<img src="highQualityProducts1.svg" class="highQualityProducts1">
+				<textarea cols="50" rows="8" id="textoCriptografado" class="textarea2"></textarea>
+			</div>
+
+	<footer>&copy;Wanderson Silva: Projeto Codificador Alura</footer>
+</body>
+</html>
