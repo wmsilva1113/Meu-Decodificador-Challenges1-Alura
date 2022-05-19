@@ -75,10 +75,11 @@
 
 	// Botão seleciona e Copia Texto do textarea2 //
 
-	const textInput = document.getElementById("textoCriptografado");
-    const copyButton = document.getElementById("copy");
-
-    copyButton.addEventListener("click", ()=> {
-     	textInput.select();
-      	document.execCommand("copy");
-    });
+	function selecionaCopia (){
+		const textInput = document.getElementById("textoCriptografado");
+	    	const copyButton = document.getElementById("copy");
+	  	copyButton.addEventListener("click", ()=> {
+	     	textInput.select();
+	      	document.execCommand("copy");
+	    });
+	}
