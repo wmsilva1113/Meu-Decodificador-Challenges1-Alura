@@ -18,9 +18,6 @@
 //...................................................................................................//
 
 
-	document.getElementById("textoCriptografado").style.display = "none"; // Mostra textarea2 e esconde imagem //
-
-
 	// Função para criptografar e deixar letras minúsculas do texto digitado no textarea1 e exibir no textarea2 //
 
 	function criptografar() {
@@ -74,12 +71,12 @@
 
 
 	// Botão seleciona e Copia Texto do textarea2 //
-
 	function selecionaCopia (){
 		const textInput = document.getElementById("textoCriptografado");
-	    	const copyButton = document.getElementById("copy");
-	  	copyButton.addEventListener("click", ()=> {
-	     	textInput.select();
-	      	document.execCommand("copy");
+		const copyButton = document.getElementById("copy");
+
+	    	copyButton.addEventListener("click", ()=> {
+		textInput.select();
+		document.execCommand("copy");
 	    });
 	}
