@@ -75,8 +75,8 @@
 		const textInput = document.getElementById("textoCriptografado");
 		const copyButton = document.getElementById("copy");
 
-	    	copyButton.addEventListener("click", ()=> {
+   	 copyButton.addEventListener("click", ()=> {
 		textInput.select();
 		document.execCommand("copy");
-	    });
+   	});
 	}
