@@ -15,10 +15,13 @@
 }
 
 .digiteSeuTexto {
-	display: flex;
+	color: #0A3871;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 32px;
 	position: absolute;
 	align-items: center;
-	width: 200px;
+	width: 280px;
 	height: 38px;
 	left: 270px;
 	top: 120px;
@@ -50,6 +53,7 @@
 
 .button1 {
 	background-color: #0A3871 ;
+	font-family: sans-serif;
 	color: white;
 	display: inline-block;
 	align-items: center;
@@ -62,10 +66,18 @@
 	top: 480px;
 	margin: 0 auto;
 	border-radius: 20px;
+	cursor: pointer;
+}
+
+#criptografar:hover{
+	top:475px;
+	box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out;
 }
 
 .button2 {
 	background-color: #D8DFE8 ;
+	font-family: sans-serif;
 	display: inline-block;
 	align-items: center;
 	width: 250px;
@@ -77,10 +89,18 @@
 	top: 480px;
 	margin: 0 auto;
 	border-radius: 20px;
+	cursor: pointer;
+}
+
+#descriptografar:hover{
+	top:475px;
+	box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out
 }
 
 .button3 {
-	background-color: #0A3871 ;
+	background-color: #0A3871;
+	font-family: sans-serif;
 	color: white;
 	display: inline-block;
 	align-items: center;
@@ -93,6 +113,13 @@
 	top: 480px;
 	margin: 0 auto;
 	border-radius: 20px;
+	cursor: pointer;
+}
+
+#copy:hover{
+	top:475px;
+	box-shadow:0 4px 4px #999;
+    transition: all .2s ease-in-out
 }
 
 .textarea2 {
